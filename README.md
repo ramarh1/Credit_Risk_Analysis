@@ -1,4 +1,4 @@
-### Credit_Risk_Analysis
+# Credit_Risk_Analysis
 Module 17 Challenge
 
 ## Analysis Overview
@@ -6,32 +6,32 @@ For this analyis, we used Python to perform machine learning models to predict c
 
 ## Results (Balanced Accuracy Scores, Confusion Matrixes and Imbalanced Classification Reports)
 
-# RandomOverSampler model
+### RandomOverSampler model
 <img width="1026" alt="Naive Random Oversampling" src="https://user-images.githubusercontent.com/88624677/147945693-c68b8a83-5e8e-437a-af1d-a2b9bf9a8084.png">
 
 The balanced accuracy score for this model is 66%. Furthermore high_risk precision is 1%, while the sensitivity/recall for high_risk is 61%. The F1 for high_risk loan applicants is only 2%. On the other hand, the precision for low_risk is 100%, the sensitivity/recall is 71%, and the F1 is at 83%, a lot higher than high_risk.
 
-# SMOTE Oversampling model
+### SMOTE Oversampling model
 <img width="1023" alt="SMOTE Oversampling" src="https://user-images.githubusercontent.com/88624677/147945721-1c2831a0-be56-47e0-9f16-65833733baba.png">
 
 The balanced accuracy score for this model is 63%. The high_precision risk is 1%, sensitivity/recall is 57%, which makes the F1 2%. For the low_risk applicants the precision is 100%, sensitivity/recall at 68%, and the F1 at 81%.
 
-# ClusterCentroids model/Undersampling
+### ClusterCentroids model/Undersampling
 <img width="1024" alt="Undersampling" src="https://user-images.githubusercontent.com/88624677/147946077-b416e734-5bd9-4a60-b673-2251db3a4596.png">
 
 The balanced accuracy score for this model is 60%. The high_precision risk is 1%, sensitivity/recall is 61%, which makes the F1 1%. For the low_risk applicants the precision is 100%, sensitivity/recall at 45%, and the F1 at 62%.
 
-# SMOTEENN model
+### SMOTEENN model
 <img width="1017" alt="SMOTEENN Model" src="https://user-images.githubusercontent.com/88624677/147970274-b1636ac4-fd4a-4f6e-a581-215de5e23914.png">
 
 The balanced accuracy score for this model is 64%. The high_precision risk is 1%, sensitivity/recall is 70%, which makes the F1 2%. For the low_risk applicants the precision is 100%, sensitivity/recall at 57%, and the F1 at 73%.
 
-# BalancedRandomForestClassifier model
+### BalancedRandomForestClassifier model
 <img width="1024" alt="BFC Model" src="https://user-images.githubusercontent.com/88624677/147970311-dd10ed1d-84c2-4786-8228-26dd13b284b6.png">
 
 The balanced accuracy score for this model is 90%. The high_precision risk is 3%, sensitivity/recall is 68%, which makes the F1 6%. For the low_risk applicants the precision is 100%, sensitivity/recall at 90%, and the F1 at 95%.
 
-# EasyEnsembleClassifier model
+### EasyEnsembleClassifier model
 <img width="1069" alt="EEC" src="https://user-images.githubusercontent.com/88624677/147996585-2c1be9f0-81a5-450c-b22f-fb3a01b80306.png">
 
 
