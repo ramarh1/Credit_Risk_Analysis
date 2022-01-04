@@ -27,9 +27,9 @@ The balanced accuracy score for this model is 60%. The high_precision risk is 1%
 The balanced accuracy score for this model is 64%. The high_precision risk is 1%, sensitivity/recall is 70%, which makes the F1 2%. For the low_risk applicants the precision is 100%, sensitivity/recall at 57%, and the F1 at 73%.
 
 ### BalancedRandomForestClassifier model
-<img width="1024" alt="BFC Model" src="https://user-images.githubusercontent.com/88624677/147970311-dd10ed1d-84c2-4786-8228-26dd13b284b6.png">
+<img width="1166" alt="Random Forest Balanced" src="https://user-images.githubusercontent.com/88624677/148139398-b3f6ffe2-24a9-47ab-9a2c-61f9f333073a.png">
 
-The balanced accuracy score for this model is 90%. The high_precision risk is 3%, sensitivity/recall is 68%, which makes the F1 6%. For the low_risk applicants the precision is 100%, sensitivity/recall at 90%, and the F1 at 95%.
+The balanced accuracy score for this model is 80%. The high_precision risk is 3%, sensitivity/recall is 68%, which makes the F1 6%. For the low_risk applicants the precision is 100%, sensitivity/recall at 90%, and the F1 at 95%.
 
 ### EasyEnsembleClassifier model
 <img width="1069" alt="EEC" src="https://user-images.githubusercontent.com/88624677/147996585-2c1be9f0-81a5-450c-b22f-fb3a01b80306.png">
